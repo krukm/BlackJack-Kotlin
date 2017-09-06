@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BlackJack</string>
+    <string name="current_card">You drew the </string>
+    <string name="empty_deck">No cards left! Play again?</string>
+    <string name="bust">BUST! Over 21...</string>
+    <string name="dealer_bust">Dealer BUSTS!...</string>
+    <string name="dealer_win">Dealer wins!...</string>
+    <string name="player_win">You win!...</string>
+    <string name="end_game">Want to play again?</string>
+</resources>

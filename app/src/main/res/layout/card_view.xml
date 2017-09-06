@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.krukm.blackjack.ui.card.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/card"
+    android:elevation="4dp"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/top_face_text_view"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:text="A"/>
+
+    <TextView
+        android:id="@+id/top_suit_text_view"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/top_face_text_view"
+        android:layout_alignStart="@id/top_face_text_view"
+        android:layout_below="@id/top_face_text_view"
+        tools:text="♠"/>
+
+    <TextView
+        android:id="@+id/bottom_face_text_view"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:rotation="180"
+        tools:text="A"/>
+
+    <TextView
+        android:id="@+id/bottom_suit_text_view"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_face_text_view"
+        android:layout_alignEnd="@id/bottom_face_text_view"
+        android:layout_alignStart="@id/bottom_face_text_view"
+        android:rotation="180"
+        tools:text="♠"/>
+
+
+    <TextView
+        android:id="@+id/center_suit_text_view"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:text="♠"/>
+
+
+</io.github.krukm.blackjack.ui.card.CardView>
